@@ -1,5 +1,7 @@
 body {
   background: rgb(179, 210, 235)255, 235, 192);
+  margin: 0%;
+  padding: 0%;
 }
 h1 {
   text-align: center;
@@ -49,10 +51,10 @@ li a:hover {
   background: rgb(139, 105, 201);
   color: azure;
 }
-#tigre {
+#golfinho {
   width: 10%;
 }
-.caixaTigre {
+.caixaGolfinho {
   position: absolute;
   top: 45px;
   width: 90%;
@@ -67,7 +69,7 @@ li a:hover {
   display: flex;
   justify-content: center;
 }
-.caixaTigre2 {
+.caixaGolfinho2 {
   position: absolute;
   top: 45px;
   width: 90%;
@@ -81,4 +83,18 @@ li a:hover {
   padding: 20px;
   display: flex;
   justify-content: center;
+}
+.rodape {
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  background-color: aliceblue;
+  color: rgb(8, 5, 5)
+  bottom: 0%;
+  display: flex;
+  justify-content: center;
+}
+.conteudo{
+  position: absolute;
+  top: 45px;
 }
